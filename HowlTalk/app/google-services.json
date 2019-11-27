@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "649839105223",
+    "firebase_url": "https://howltalk-390d0.firebaseio.com",
+    "project_id": "howltalk-390d0",
+    "storage_bucket": "howltalk-390d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649839105223:android:3f9c93c2c7722cee",
+        "android_client_info": {
+          "package_name": "com.example.taewoo.howltalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649839105223-re6rbb2ej7g9f6o8nu3v0taj6m9p4n15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.taewoo.howltalk",
+            "certificate_hash": "31334a9757984ddaf68fa72c8d46eda09d2d50f4"
+          }
+        },
+        {
+          "client_id": "649839105223-j64telmrkc145f8ddmen3car0daqoqdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr9kFEl3CU3LGbzCk5yE6icvd1JhVD0Yo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649839105223-j64telmrkc145f8ddmen3car0daqoqdq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
