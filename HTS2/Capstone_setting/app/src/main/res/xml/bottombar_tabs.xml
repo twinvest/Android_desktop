@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <tabs>
+        <tab
+            icon="@drawable/home"
+            id="@+id/home" />
+        <tab
+            icon="@drawable/album"
+            id="@+id/tab_album" />
+        <tab
+            icon="@drawable/capture"
+            id="@+id/tab_capture" />
+        <tab
+            icon="@drawable/tour"
+            id="@+id/tab_tour" />
+        <tab
+            icon="@drawable/mypage"
+            id="@+id/tab_mypage" />
+    </tabs>
+</PreferenceScreen>

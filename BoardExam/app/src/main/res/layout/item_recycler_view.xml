@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="10dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/ImageView_title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/oneroom3"
+        />
+    <TextView
+        android:id="@+id/TextView_title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="연무동 창훈로 46번길 11-9"
+        android:background="#70000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <tabs>
+        <tab
+            icon="@drawable/home"
+            id="@+id/home" />
+        <tab
+            icon="@drawable/search"
+            id="@+id/tab_contacts" />
+        <tab
+            icon="@drawable/mylocation"
+            id="@+id/tab_macro_setting" />
+        <tab
+            icon="@drawable/mypage2"
+            id="@+id/tab_mypage" />
+
+    </tabs>
+</PreferenceScreen>

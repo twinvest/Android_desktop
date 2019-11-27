@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Room.Register">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:fillViewport="true">
+        <LinearLayout
+            android:id="@+id/layout7"
+            android:paddingRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="5"
+                >
+                <ImageButton
+                    android:id="@+id/local_album"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/add_picture"
+                    android:clickable="true"
+                    />
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  글 쓰기"
+                    android:id="@+id/title1"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_weight="3"
+                    />
+                <Button
+                    android:id="@+id/bt_upload"
+                    android:text="완료"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/preview"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/bottom_border"
+                android:layout_centerHorizontal="true"/> <!--사진 선택시 보이는 곳-->
+            <TableLayout
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+
+                    >
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="제목: "
+                        />
+                    <EditText
+                        android:textStyle="bold"
+                        android:layout_weight="9"
+                        android:id="@+id/EditText_title"
+                        android:layout_height="wrap_content"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+                    >
+                    <TextView
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="계약 형태: "
+                        />
+
+                    <EditText
+                        android:id="@+id/contract_type"
+                        android:layout_width="fill_parent"
+                        android:hint="00만원"
+                        android:inputType="number"
+                        android:textSize="12sp"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:text="입주일: "
+                        android:gravity="center"
+                        android:textStyle="bold"
+
+                        />
+                    <DatePicker
+                        android:id="@+id/start_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:spinnersShown="true"
+                        android:datePickerMode="spinner"
+                        android:calendarViewShown="false"
+
+                        />
+
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:text="계약만료: "
+                        android:gravity="center"
+                        android:textStyle="bold"
+
+                        />
+                    <DatePicker
+                        android:id="@+id/end_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:spinnersShown="true"
+                        android:datePickerMode="spinner"
+                        android:calendarViewShown="false"
+
+                        />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+                    android:paddingTop="5dp"
+                    >
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="방 형태"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/room_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="4"
+                        >
+                        <RadioButton
+                            android:id="@+id/one"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="원룸"
+                            />
+                        <RadioButton
+                            android:id="@+id/two"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="투룸"
+                            />
+                        <RadioButton
+                            android:id="@+id/three"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="쓰리룸"
+                            />
+
+                        <RadioButton
+                            android:id="@+id/office"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="오피스텔"
+                            />
+                    </RadioGroup>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+                    >
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="방 평수: "
+                        />
+
+                    <EditText
+                        android:id="@+id/room_average"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="평수를 입력해주세요"
+                        android:textSize="12sp"
+
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+                    >
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="층수: "
+                        />
+
+                    <EditText
+                        android:id="@+id/floor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="층수를 입력해주세요"
+                        android:textSize="12sp"
+
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+                    >
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="관리비: "
+                        />
+
+                    <EditText
+                        android:id="@+id/admin_expenses"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="관리비를 입력해주세요"
+                        android:textSize="12sp"
+
+                        />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+                    >
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="특이사항 : "
+                        />
+
+                    <EditText
+                        android:id="@+id/uniqueness"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textMultiLine"
+                        android:hint="기타 특이사항을 입력하세요"
+                        android:textSize="12sp"
+
+                        />
+                </TableRow>
+
+
+            </TableLayout>
+
+
+
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

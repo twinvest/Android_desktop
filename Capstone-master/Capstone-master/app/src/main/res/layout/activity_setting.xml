@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+        <!--전체-->
+        <LinearLayout
+            android:id="@+id/layout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- 1번 분리 + 사이드 공간용-->
+
+            <LinearLayout
+                android:id="@+id/layout6"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="horizontal">
+
+                <!-- 1번 분리 좌 빈 공간-->
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="400dp"
+                    android:layout_weight="1" />
+
+                <!--1번 분리-->
+
+                <!-- 1번 분리 좌 빈 공간-->
+                <LinearLayout
+                    android:id="@+id/layout1"
+                    android:layout_width="0dp"
+                    android:layout_height="400dp"
+                    android:layout_weight="20 "
+                    android:orientation="vertical">
+
+                    <!--이름-->
+                    <TextView
+                        android:id="@+id/id"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="7"
+                        android:background="@drawable/bottom_border"
+                        android:gravity="center_vertical"
+                        android:text="테스트"
+                        android:textSize="20dp" />
+
+                    <!--빈 공간-->
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <!--쿠폰함-->
+
+                    <!--빈 공간-->
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:id="@+id/layout4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="14"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="6"
+                            android:background="@drawable/right_border"
+                            android:text="충전하기 >"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:text="   내정보수정 >"
+                            android:textSize="20dp" />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/history"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="7"
+                        android:background="@drawable/up_border"
+                        android:gravity="center_vertical"
+                        android:text="  사용가능공간 >"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="400dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:orientation="vertical">
+
+                <!--줄-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:background="@drawable/up1_border" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:text="  맘충 store!!"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:id="@+id/layout8"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/seonbol"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/store" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/food"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/calender" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/card"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/notify" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/smoke"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/qrcode" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout9"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/word"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/mail" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/seatmenu"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/event" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/aftercredit"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/customer" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/printer"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/picture" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout10"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/parking"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/review" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/couple"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/heart" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/vs"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/wallet" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/charging"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/bill" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:background="@drawable/up1_border" />
+
+            </LinearLayout>
+
+            <!-- 1번 분리 + 사이드 공간용-->
+            <LinearLayout
+                android:id="@+id/layout11"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="horizontal">
+
+                <!-- 1번 분리 좌 빈 공간-->
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="20 "
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/bottom_border"
+                        android:orientation="horizontal">
+                        <!--이름-->
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/i" />
+
+                        <TextView
+                            android:id="@+id/gonggi"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:gravity="center_vertical"
+                            android:text="공지사항"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/bottom_border"
+                        android:orientation="horizontal">
+                        <!--이름-->
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/q" />
+
+                        <TextView
+                            android:id="@+id/question"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:gravity="center_vertical"
+                            android:text=" 자주 묻는 질문 (FAQ)"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="horizontal">
+                        <!--이름-->
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/q" />
+
+                        <TextView
+                            android:id="@+id/info"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:gravity="center_vertical"
+                            android:text=" 맘충 정보!!"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- 1번 분리 우 빈 공간-->
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@drawable/up1_border" />
+
+            <LinearLayout
+                android:id="@+id/layout12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- 1번 분리 좌 빈 공간-->
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="20"
+                    android:orientation="horizontal">
+                    <!--이름-->
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/logout" />
+
+                    <TextView
+                        android:id="@+id/logout"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="로그아웃"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+
+                <!-- 1번 분리 우 빈 공간-->
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@drawable/up1_border" />
+
+
+
+        </LinearLayout>
+
+</ScrollView>

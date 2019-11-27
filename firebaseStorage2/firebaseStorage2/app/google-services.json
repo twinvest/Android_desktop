@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "912996207110",
+    "firebase_url": "https://fir-storage-1047e.firebaseio.com",
+    "project_id": "fir-storage-1047e",
+    "storage_bucket": "fir-storage-1047e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912996207110:android:d97289f0aa7f70ea",
+        "android_client_info": {
+          "package_name": "com.example.firebasestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912996207110-r275cugsukh87h23dt13tsosj7avgi9d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasestorage",
+            "certificate_hash": "9bd974e5a6daea5a44c00bb56b33a754157597b3"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoNffy7OSMYNtdqr8p6mo8g6RjBEuZTBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912996207110-ip40q79qp7umht4lifaue7mec0e7qtad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912996207110:android:8bb7994126207ae4",
+        "android_client_info": {
+          "package_name": "com.example.firebasestorage2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912996207110-gojmev2rlpbn1bjjtmhm1rh98ama1vpr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasestorage2",
+            "certificate_hash": "9bd974e5a6daea5a44c00bb56b33a754157597b3"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoNffy7OSMYNtdqr8p6mo8g6RjBEuZTBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912996207110-ip40q79qp7umht4lifaue7mec0e7qtad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

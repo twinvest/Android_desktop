@@ -1,0 +1,83 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 451 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 1580739 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/String <init> ([CII)V 1961 1 5825 0 704
+ciMethod java/lang/String length ()I 4097 1 584923 0 64
+ciMethod java/lang/String charAt (I)C 4097 1 1822371 0 128
+ciMethod java/lang/String getChars (II[CI)V 2089 1 5402 0 320
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 2137 11377 10573 0 -1
+ciMethod java/lang/String startsWith (Ljava/lang/String;)Z 2105 1 421231 0 -1
+ciMethod java/lang/String lastIndexOf (I)I 2057 1 46734 0 288
+ciMethod java/lang/String lastIndexOf (II)I 881 50153 893 0 288
+ciMethod java/lang/String lastIndexOfSupplementary (II)I 0 0 1 0 -1
+ciMethod java/lang/String substring (I)Ljava/lang/String; 2249 1 5501 0 -1
+ciMethod java/lang/String substring (II)Ljava/lang/String; 2593 1 5445 0 992
+ciMethod java/lang/String replace (CC)Ljava/lang/String; 985 50017 955 0 -1
+ciMethod java/lang/Class isAssignableFrom (Ljava/lang/Class;)Z 3073 1 384 0 -1
+ciMethod java/lang/Class isArray ()Z 2049 1 256 0 -1
+ciMethod java/lang/Class isPrimitive ()Z 2049 1 256 0 -1
+ciMethod java/lang/Class getName ()Ljava/lang/String; 649 1 80213 0 96
+ciMethod java/lang/Class getName0 ()Ljava/lang/String; 2081 1 260 0 -1
+ciMethod java/lang/Class getClassLoader ()Ljava/lang/ClassLoader; 2049 1 26990 0 96
+ciMethod java/lang/Class getClassLoader0 ()Ljava/lang/ClassLoader; 1025 1 128 0 0
+ciMethod java/lang/Class getInterfaces ()[Ljava/lang/Class; 9 1 5140 0 -1
+ciMethod java/lang/Class getComponentType ()Ljava/lang/Class; 3097 1 387 0 -1
+ciMethod java/lang/ClassLoader checkClassLoaderPermission (Ljava/lang/ClassLoader;Ljava/lang/Class;)V 0 0 1 0 -1
+ciMethod java/lang/System getSecurityManager ()Ljava/lang/SecurityManager; 2057 1 73508 0 0
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 7169 1 896 0 -1
+ciMethod java/lang/System identityHashCode (Ljava/lang/Object;)I 2049 1 256 0 -1
+ciMethod java/lang/SecurityManager checkPackageAccess (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethod java/lang/ref/Reference get ()Ljava/lang/Object; 2049 1 256 0 -1
+ciMethod java/lang/ref/SoftReference <init> (Ljava/lang/Object;)V 1977 1 7417 0 -1
+ciMethod java/lang/Thread currentThread ()Ljava/lang/Thread; 2049 1 256 0 -1
+ciMethod java/lang/reflect/AccessibleObject checkAccess (Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;I)V 33 1 68 1 -1
+ciMethod java/lang/reflect/Method getDeclaringClass ()Ljava/lang/Class; 1153 1 144 0 -1
+ciMethod java/lang/reflect/Method getName ()Ljava/lang/String; 1025 1 128 0 -1
+ciMethod java/lang/reflect/Method getModifiers ()I 1193 1 149 0 -1
+ciMethod java/lang/reflect/Method getReturnType ()Ljava/lang/Class; 1113 1 139 0 -1
+ciMethod java/lang/reflect/Method getParameterTypes ()[Ljava/lang/Class; 2105 1 82415 0 -1
+ciMethod java/lang/reflect/Method getExceptionTypes ()[Ljava/lang/Class; 881 1 9740 0 -1
+ciMethod java/lang/reflect/Method invoke (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; 2057 1 15261 0 -1
+ciMethod java/lang/reflect/Method acquireMethodAccessor ()Lsun/reflect/MethodAccessor; 369 1 616 0 -1
+ciMethod java/lang/reflect/Method getMethodAccessor ()Lsun/reflect/MethodAccessor; 1025 1 128 0 -1
+ciMethod java/lang/reflect/Method setMethodAccessor (Lsun/reflect/MethodAccessor;)V 2049 1 1210 0 -1
+ciMethod sun/reflect/MagicAccessorImpl <init> ()V 2049 1 3303 0 -1
+ciMethod sun/reflect/MethodAccessor invoke (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod sun/reflect/MethodAccessorImpl <init> ()V 2049 1 1284 0 -1
+ciMethod java/lang/Long longValue ()J 849 1 13505 0 -1
+ciMethod java/io/ObjectStreamField getName ()Ljava/lang/String; 1025 1 128 0 0
+ciMethod java/io/ObjectStreamField getTypeCode ()C 2105 1 7407 0 0
+ciMethod java/io/ObjectStreamField getTypeString ()Ljava/lang/String; 2073 1 4253 0 0
+ciMethod java/io/ObjectStreamField isPrimitive ()Z 3209 1 13429 0 0
+ciMethod java/security/AccessController doPrivileged (Ljava/security/PrivilegedAction;)Ljava/lang/Object; 2049 1 256 0 -1
+ciMethod sun/reflect/ReflectionFactory newMethodAccessor (Ljava/lang/reflect/Method;)Lsun/reflect/MethodAccessor; 2049 1 616 0 -1
+ciMethod sun/reflect/ReflectionFactory checkInitted ()V 2049 1 1784 0 -1
+ciMethod sun/reflect/Reflection getCallerClass ()Ljava/lang/Class; 3073 1 384 0 -1
+ciMethod sun/reflect/Reflection quickCheckMemberAccess (Ljava/lang/Class;I)Z 657 1 8273 0 -1
+ciMethod java/lang/Math min (II)I 3025 1 168984 0 -1
+ciMethod java/util/Arrays fill ([II)V 1641 16385 5482 0 -1
+ciMethod java/util/Arrays copyOfRange ([CII)[C 2057 1 5581 0 512
+ciMethodData java/lang/String charAt (I)C 2 1822371 orig 264 56 173 9 117 0 0 0 0 176 61 2 22 0 0 0 0 120 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 25 101 222 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 80 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 10 0x10007 0x0 0x40 0x1bcca3 0xa0007 0x1bcca2 0x30 0x0 0x120002 0x0 oops 0
+ciMethodData java/lang/String length ()I 2 584923 orig 264 56 173 9 117 0 0 0 0 96 60 2 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 217 86 71 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/Object <init> ()V 2 1580745 orig 264 56 173 9 117 0 0 0 0 128 4 2 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 73 230 192 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/io/OutputStream write ([BII)V 89 2553 11 0 -1
+ciMethod sun/reflect/misc/ReflectUtil checkPackageAccess (Ljava/lang/Class;)V 2569 1 15384 0 0
+ciMethod sun/reflect/misc/ReflectUtil checkPackageAccess (Ljava/lang/String;)V 2049 1 9074 0 96
+ciMethod sun/reflect/misc/ReflectUtil needsPackageAccessCheck (Ljava/lang/ClassLoader;Ljava/lang/ClassLoader;)Z 0 0 1 0 -1
+ciMethod sun/reflect/misc/ReflectUtil checkProxyPackageAccess (Ljava/lang/Class;)V 0 0 1 0 -1
+ciMethod sun/reflect/misc/ReflectUtil isNonPublicProxyClass (Ljava/lang/Class;)Z 1 1 9483 0 0
+ciMethod sun/reflect/misc/ReflectUtil isVMAnonymousClass (Ljava/lang/Class;)Z 1169 1 888 0 -1
+ciMethod java/lang/Enum name ()Ljava/lang/String; 1057 1 132 0 -1
+ciMethod java/util/concurrent/ConcurrentMap putIfAbsent (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentMap remove (Ljava/lang/Object;Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentMap get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethodData java/util/Arrays copyOfRange ([CII)[C 2 5581 orig 264 56 173 9 117 0 0 0 0 120 166 19 22 0 0 0 0 120 2 0 0 240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 97 166 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 32 1 0 0 255 255 255 255 7 0 5 0 0 0 0 0 data 36 0x50007 0x14cc 0x100 0x0 0x100002 0x0 0x140005 0x0 0x0 0x0 0x0 0x0 0x190005 0x0 0x0 0x0 0x0 0x0 0x1d0005 0x0 0x0 0x0 0x0 0x0 0x200005 0x0 0x0 0x0 0x0 0x0 0x230002 0x0 0x360002 0x14cc 0x390002 0x14cc oops 0
+ciMethodData java/lang/String <init> ([CII)V 2 5825 orig 264 56 173 9 117 0 0 0 0 160 49 2 22 0 0 0 0 80 2 0 0 208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 245 0 0 0 97 174 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 240 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 30 0x10002 0x15cc 0x50007 0x15cc 0x30 0x0 0xd0002 0x0 0x120007 0x15ac 0x70 0x20 0x160007 0x20 0x30 0x0 0x1e0002 0x0 0x250007 0x0 0x20 0x20 0x370007 0x15ac 0x30 0x0 0x410002 0x0 0x4b0002 0x15ac oops 0
+ciMethodData java/lang/String getChars (II[CI)V 2 5402 orig 264 56 173 9 117 0 0 0 0 8 66 2 22 0 0 0 0 8 2 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 1 0 0 169 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 160 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 20 0x10007 0x1415 0x30 0x0 0x90002 0x0 0x130007 0x1415 0x30 0x0 0x1b0002 0x0 0x210007 0x1415 0x30 0x0 0x2b0002 0x0 0x3a0002 0x1415 oops 0
+ciMethodData java/lang/System getSecurityManager ()Ljava/lang/SecurityManager; 2 73508 orig 264 56 173 9 117 0 0 0 0 120 151 3 22 0 0 0 0 24 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 25 241 8 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/String lastIndexOf (II)I 2 30953 orig 264 56 173 9 117 0 0 0 0 208 83 2 22 0 0 0 0 240 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 125 24 0 0 121 24 0 0 97 3 3 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 14 0 2 0 0 0 152 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 19 0x30007 0x0 0x88 0x30f 0x100002 0x30f 0x170007 0x20 0x58 0x635b 0x1f0007 0x606c 0x20 0x2ef 0x280003 0x606c 0xffffffffffffffc0 0x300002 0x0 oops 0
+ciMethodData java/lang/String lastIndexOf (I)I 2 46734 orig 264 56 173 9 117 0 0 0 0 0 83 2 22 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 105 172 5 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 9 0 0 0 0 0 data 6 0x90005 0x0 0x302b2f0 0xb58d 0x0 0x0 oops 1

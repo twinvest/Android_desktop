@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#222222"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.capstone.PhoneAuthActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="환영합니다!"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textSize="36sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="간단한 회원가입을 위해 핸드폰 본인인증을 실시합니다."
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:textSize="16sp"/>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/phoneAuth"
+        android:text="본인인증하기"
+        android:textSize="19sp"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:drawableStart="@drawable/ic_phonelink_ring_black_24dp"
+        android:drawableTint="@android:color/white"
+        app:fButtonColor="@color/btnSignActive"
+        app:shadowColor="#00000099"
+        app:shadowEnabled="true"
+        app:shadowHeight="3dp"
+        app:cornerRadius="4dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

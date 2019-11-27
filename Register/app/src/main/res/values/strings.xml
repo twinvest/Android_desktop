@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hint_content"> 여기서 눌러서 글을 작성할 수 있습니다.\n \n \n
+
+        [정보통신망법에 의한 홍보 게시물 작성 금지] \n \n \n
+        1.회사/단체와 관련된 공모전, 대외활동, 구인, 펀딩 홍보 \n \n
+        2.커뮤니티, 어플, 쇼핑몰, 카페 블로그 홍보 및 방문 유도 \n \n
+
+    </string>
+</resources>

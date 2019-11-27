@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Room.Map">
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/dobong_image"
+        android:layout_width="51dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="90dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/dobonggu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.665"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/seongbook_image"
+        android:layout_width="89dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="160dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/seongbook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/dongdaemoon_image"
+        android:layout_width="58dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="199dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/dongdaemoon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/jongro_image"
+        android:layout_width="64dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="168dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/jongro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/seodaemoon_image"
+        android:layout_width="58dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="191dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/seodaemoon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/enpyeong_image"
+        android:layout_width="80dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="138dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/enpeyong"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.385"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/joong_image"
+        android:layout_width="54dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="238dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/joong"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/seongdong_image"
+        android:layout_width="56dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="248dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/seongdong"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/guangjin_image"
+        android:layout_width="53dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="244dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/guangjin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/gangbook_image"
+        android:layout_width="73dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="110dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/gangbook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/joonglang_image"
+        android:layout_width="59dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="186dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/joonglang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/nowon_image"
+        android:layout_width="64dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="104dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/nowon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/yongsan_image"
+        android:layout_width="64dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="264dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/yongsan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/mapo_image"
+        android:layout_width="98dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="221dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/mapo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.321"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/hangang_image"
+        android:layout_width="365dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="186dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/hangang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/gangseo_image"
+        android:layout_width="114dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="209dp"
+        android:layout_marginBottom="40dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/gangseo"
+        app:layout_constraintBottom_toTopOf="@+id/geumcheon_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/yeongdeungpo_image"
+        android:layout_width="65dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="268dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/yeongdeungpo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.335"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/dongjak_image"
+        android:layout_width="62dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="297dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/dongjak"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/seocho_image"
+        android:layout_width="112dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="296dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/seocho"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.715"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/gangnam_image"
+        android:layout_width="94dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="276dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/gangnam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/songpa_image"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="278dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/songpa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.047"
+        app:layout_constraintStart_toEndOf="@+id/geumcheon_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/gangdong_image"
+        android:layout_width="60dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/gangdong"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.218"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/yangcheon_image"
+        android:layout_width="104dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="267dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/yangcheon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/guro_image"
+        android:layout_width="88dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="293dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/guro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/guanak_image"
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="329dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/guanak"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.androideatit.ObjectClickImageView
+        android:id="@+id/geumcheon_image"
+        android:layout_width="50dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="343dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/geumcheon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.328"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/writeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:backgroundTint="@android:color/white"
+        app:srcCompat="@drawable/ic_add_black_24dp"
+        />
+</android.support.constraint.ConstraintLayout>

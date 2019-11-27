@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bitcoin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--위측-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!--위측 왼쪽-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/chartLeftUp1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="로딩 중.." />
+
+                <TextView
+                    android:id="@+id/chartLeftUp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="로딩 중.." />
+
+                <TextView
+                    android:id="@+id/chartLeftUp3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="로딩 중.." />
+
+                <TextView
+                    android:id="@+id/chartLeftUp4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="로딩 중.." />
+
+                <TextView
+                    android:id="@+id/chartLeftUp5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="로딩 중.." />
+
+                <TextView
+                    android:id="@+id/chartLeftUp6"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="로딩 중.." />
+
+            </LinearLayout>
+
+            <!--위측 중앙-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/price1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#E3F2FD"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="로딩 중.."/>
+
+                <TextView
+                    android:id="@+id/price2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#E3F2FD"
+                    android:gravity="center"
+                    android:text="로딩 중.."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/price3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#E3F2FD"
+                    android:gravity="center"
+                    android:text="로딩 중.."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/price4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#E3F2FD"
+                    android:gravity="center"
+                    android:text="로딩 중.."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/price5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#E3F2FD"
+                    android:gravity="center"
+                    android:text="로딩 중.."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/price6"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#E3F2FD"
+                    android:gravity="center"
+                    android:text="로딩 중.."
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+            <!--위측 우측-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--아래측-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <!--아래측 왼쪽-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <!--아래측 중앙-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/price7"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#FFEBEE"
+                    android:gravity="center"
+                    android:text="로딩 중.."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/price8"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#FFEBEE"
+                    android:gravity="center"
+                    android:text="로딩 중.."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/price9"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#FFEBEE"
+                    android:gravity="center"
+                    android:text="로딩 중.."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/price10"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#FFEBEE"
+                    android:gravity="center"
+                    android:text="로딩 중.."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/price11"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#FFEBEE"
+                    android:gravity="center"
+                    android:text="로딩 중.."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/price12"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#FFEBEE"
+                    android:gravity="center"
+                    android:text="로딩 중.."
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+            <!--아래측 우측-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/chartRightDown1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="로딩 중.." />
+
+                <TextView
+                    android:id="@+id/chartRightDown2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="로딩 중.." />
+
+                <TextView
+                    android:id="@+id/chartRightDown3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="로딩 중.." />
+
+                <TextView
+                    android:id="@+id/chartRightDown4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="로딩 중.." />
+
+                <TextView
+                    android:id="@+id/chartRightDown5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="로딩 중.." />
+
+                <TextView
+                    android:id="@+id/chartRightDown6"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="로딩 중.." />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

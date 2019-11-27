@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="family">
+        <item >엄마</item>
+        <item >아빠</item>
+        <item >동생</item>
+        <item >형</item>
+        <item >누나</item>
+        <item >언니</item>
+    </string-array>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	android:id="@+id/llImageCellBg"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@null">           
+	<RelativeLayout 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:gravity="center_horizontal"
+	    android:orientation="vertical"
+	    android:fillViewport="true"
+	    android:background="@drawable/no_bg" >
+	    
+		<ImageView
+			android:id="@+id/ivImage"
+			android:layout_width="fill_parent"
+			android:layout_height="150px"
+			android:scaleType="centerCrop"
+			android:src="@null"
+			android:layout_alignParentTop="true"
+			android:visibility="visible" /> 
+			
+		<CheckBox
+			android:id="@+id/chkImage"
+			android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_alignParentTop="true"
+			android:clickable="false"
+			android:focusable="false" />
+			
+	</RelativeLayout>
+</LinearLayout> 
